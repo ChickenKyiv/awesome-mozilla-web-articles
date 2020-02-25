@@ -53,9 +53,7 @@ resizeObserver.observe(document.querySelector('div'));
 
 ## Specifications
 
-| Specification                                                | Status         | Comment             |
-| ------------------------------------------------------------ | -------------- | ------------------- |
-| [Resize Observer](https://drafts.csswg.org/resize-observer/) | Editor's Draft | Initial definition. |
+![](https://github.com/ChickenKyiv/awesome-mozilla-web-articles/blob/master/main%20folder/images/article1-folder/t2.jpg)
 
 ## Browser compatibility
 
