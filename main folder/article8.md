@@ -32,7 +32,7 @@ Touch events are similar to mouse events except they support  simultaneous touch
 
 ## Example
 
-This example tracks multiple touch points at a time, allowing the user to draw in a [``](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas) with more than one finger at a time. It will only work on a browser that supports touch events.
+This example tracks multiple touch points at a time, allowing the user to draw in a [`<canvas>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas) with more than one finger at a time. It will only work on a browser that supports touch events.
 
 > **Note:** The text below uses the term  "finger" when describing the contact with the surface, but it could, of  course, also be a stylus or other contact method.
 
@@ -62,7 +62,7 @@ function startup() {
 document.addEventListener("DOMContentLoaded", startup);
 ```
 
-This simply sets up all the event listeners for our [``](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas) element so we can handle the touch events as they occur.
+This simply sets up all the event listeners for our [`<canvas>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas) element so we can handle the touch events as they occur.
 
 #### Tracking new touches
 
@@ -214,7 +214,7 @@ function colorForTouch(touch) {
 }
 ```
 
-The result from this function is a string that can be used when calling [``](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas) functions to set drawing colors. For example, for a [`Touch.identifier`](https://developer.mozilla.org/en-US/docs/Web/API/Touch/identifier) value of 10, the resulting string is "#a31".
+The result from this function is a string that can be used when calling [`<canvas>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas) functions to set drawing colors. For example, for a [`Touch.identifier`](https://developer.mozilla.org/en-US/docs/Web/API/Touch/identifier) value of 10, the resulting string is "#a31".
 
 #### Copying a touch object
 
@@ -314,7 +314,7 @@ The reason for this is that some websites use the availability of  parts of the 
 
 To support both touch and mouse across all types of device, use [pointer events](https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events) instead.
 
-![](https://github.com/ChickenKyiv/awesome-mozilla-web-articles/blob/master/main%20folder/images/article1-folder/t2.jpg)
+![](https://github.com/ChickenKyiv/awesome-mozilla-web-articles/blob/master/main%20folder/images/article8-folder/t2.jpg)
 
 
 

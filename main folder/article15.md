@@ -54,7 +54,7 @@ In addition, we have provided an [event output page](https://mdn.github.io/dom-e
 
 ### `Window.sessionStorage`
 
-![](https://github.com/ChickenKyiv/awesome-mozilla-web-articles/blob/master/main%20folder/images/article1-folder/t3.jpg)
+![](https://github.com/ChickenKyiv/awesome-mozilla-web-articles/blob/master/main%20folder/images/article15-folder/t3.jpg)
 
 ## Private Browsing / Incognito modes
 
