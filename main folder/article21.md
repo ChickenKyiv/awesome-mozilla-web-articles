@@ -34,7 +34,7 @@ If you have any content that may be of risk to any users, you should provide a w
 
 Example WebXR hardware setup
 
- ![](https://github.com/ChickenKyiv/awesome-mozilla-web-articles/blob/master/main%20folder/images/article1-folder/hw-setup.png)
+ ![](https://github.com/ChickenKyiv/awesome-mozilla-web-articles/blob/master/main%20folder/images/article21-folder/hw-setup.png)
 
 While the older [WebVR API](https://developer.mozilla.org/en-US/docs/Web/API/WebVR_API) was designed solely to support Virtual Reality (VR), WebXR provides support for both VR and Augmented Reality (AR) on the web. Support for AR  functionality is added by the WebXR Augmented Reality Module.
 

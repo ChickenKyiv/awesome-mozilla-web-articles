@@ -11,7 +11,7 @@ WebVR provides support for exposing virtual reality  devices — for example, he
 
 Any VR devices attached to your computer will be returned by the [`Navigator.getVRDisplays()`](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getVRDisplays) method; each one will be represented by a [`VRDisplay`](https://developer.mozilla.org/en-US/docs/Web/API/VRDisplay) object.
 
-![](https://github.com/ChickenKyiv/awesome-mozilla-web-articles/blob/master/main%20folder/images/article1-folder/hw-setup.png)
+![](https://github.com/ChickenKyiv/awesome-mozilla-web-articles/blob/master/main%20folder/images/article19-folder/hw-setup.png)
 
 [`VRDisplay`](https://developer.mozilla.org/en-US/docs/Web/API/VRDisplay) is the central interface in the WebVR API — via its properties and methods you can access functionality to:
 

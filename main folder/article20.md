@@ -425,7 +425,7 @@ In addition to the three escape sequences mentioned above, there are fours other
 
 ### Cue payload text tags
 
-There are a number of tags, such as ``, that can be used. However, if the WebVTT file is used in a [``](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track) element where the attribute `kind` is `chapters` then you cannot use tags.
+There are a number of tags, such as `<bold>`, that can be used. However, if the WebVTT file is used in a [`<track>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track) element where the attribute `kind` is `chapters` then you cannot use tags.
 
 - Timestamp tag
 

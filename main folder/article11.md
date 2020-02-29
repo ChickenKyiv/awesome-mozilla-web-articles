@@ -13,12 +13,12 @@ Outputs of these nodes could be linked to inputs of others, which mix or modify 
 A simple, typical workflow for web audio would look something like this:
 
 1. Create audio context
-2. Inside the context, create sources — such as ``, oscillator, stream
+2. Inside the context, create sources — such as `<audio>`, oscillator, stream
 3. Create effects nodes, such as reverb, biquad filter, panner, compressor
 4. Choose final destination of audio, for example your system speakers
 5. Connect the sources up to the effects, and the effects to the destination.
 
-![](https://github.com/ChickenKyiv/awesome-mozilla-web-articles/blob/master/main%20folder/images/article1-folder/audio-context_.png)
+![](https://github.com/ChickenKyiv/awesome-mozilla-web-articles/blob/master/main%20folder/images/article11-folder/audio-context_.png)
 
 Timing is controlled with high precision and low latency, allowing  developers to write code that responds accurately to events and is able  to target specific samples, even at a high sample rate. So applications  such as drum machines and sequencers are well within reach.
 
@@ -58,7 +58,7 @@ General containers and definitions that shape audio graphs in Web Audio API usag
 
 - [`AudioContextOptions`](https://developer.mozilla.org/en-US/docs/Web/API/AudioContextOptions)
 
-  The `**AudioContextOptions**` dictionary is used to provide options when instantiating a new `AudioContext`.
+  The **`AudioContextOptions`** dictionary is used to provide options when instantiating a new `AudioContext`.
 
 - [`AudioNode`](https://developer.mozilla.org/en-US/docs/Web/API/AudioNode)
 
@@ -102,11 +102,11 @@ Interfaces that define audio sources for use in the Web Audio API.
 
 - [`MediaElementAudioSourceNode`](https://developer.mozilla.org/en-US/docs/Web/API/MediaElementAudioSourceNode)
 
-  The `**MediaElementAudioSourceNode**` interface represents an audio source consisting of an HTML5 [`<audio>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio) or [`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) element. It is an [`AudioNode`](https://developer.mozilla.org/en-US/docs/Web/API/AudioNode) that acts as an audio source.
+  The **`MediaElementAudioSourceNode`** interface represents an audio source consisting of an HTML5 [`<audio>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio) or [`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) element. It is an [`AudioNode`](https://developer.mozilla.org/en-US/docs/Web/API/AudioNode) that acts as an audio source.
 
 - [`MediaStreamAudioSourceNode`](https://developer.mozilla.org/en-US/docs/Web/API/MediaStreamAudioSourceNode)
 
-  The `**MediaStreamAudioSourceNode**` interface represents an audio source consisting of a [`MediaStream`](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream) (such as a webcam, microphone, or a stream being sent from a remote  computer). If multiple audio tracks are present on the stream, the track whose [`id`](https://developer.mozilla.org/en-US/docs/Web/API/MediaStreamTrack/id) comes first lexicographically (alphabetically) is used. It is an [`AudioNode`](https://developer.mozilla.org/en-US/docs/Web/API/AudioNode) that acts as an audio source.
+  The **`MediaStreamAudioSourceNode`** interface represents an audio source consisting of a [`MediaStream`](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream) (such as a webcam, microphone, or a stream being sent from a remote  computer). If multiple audio tracks are present on the stream, the track whose [`id`](https://developer.mozilla.org/en-US/docs/Web/API/MediaStreamTrack/id) comes first lexicographically (alphabetically) is used. It is an [`AudioNode`](https://developer.mozilla.org/en-US/docs/Web/API/AudioNode) that acts as an audio source.
 
 - [`MediaStreamTrackAudioSourceNode`](https://developer.mozilla.org/en-US/docs/Web/API/MediaStreamTrackAudioSourceNode)
 
@@ -122,7 +122,7 @@ Interfaces for defining effects that you want to apply to your audio sources.
 
 - [`ConvolverNode`](https://developer.mozilla.org/en-US/docs/Web/API/ConvolverNode)
 
-  The `**Convolver**`**`Node`** interface is an [`AudioNode`](https://developer.mozilla.org/en-US/docs/Web/API/AudioNode) that performs a Linear Convolution on a given [`AudioBuffer`](https://developer.mozilla.org/en-US/docs/Web/API/AudioBuffer), and is often used to achieve a reverb effect.
+  The **`Convolver`** **`Node`** interface is an [`AudioNode`](https://developer.mozilla.org/en-US/docs/Web/API/AudioNode) that performs a Linear Convolution on a given [`AudioBuffer`](https://developer.mozilla.org/en-US/docs/Web/API/AudioBuffer), and is often used to achieve a reverb effect.
 
 - [`DelayNode`](https://developer.mozilla.org/en-US/docs/Web/API/DelayNode)
 
@@ -146,7 +146,7 @@ Interfaces for defining effects that you want to apply to your audio sources.
 
 - [`IIRFilterNode`](https://developer.mozilla.org/en-US/docs/Web/API/IIRFilterNode)
 
-  Implements a general **[infinite impulse response](https://en.wikipedia.org/wiki/infinite impulse response)** (IIR) filter; this type of filter can be used to implement tone control devices and graphic equalizers as well.
+  Implements a general [infinite impulse response](https://en.wikipedia.org/wiki/infinite impulse response) (IIR) filter; this type of filter can be used to implement tone control devices and graphic equalizers as well.
 
 ### Defining audio destinations
 
@@ -174,11 +174,11 @@ To split and merge audio channels, you'll use these interfaces.
 
 - [`ChannelSplitterNode`](https://developer.mozilla.org/en-US/docs/Web/API/ChannelSplitterNode)
 
-  The `**ChannelSplitterNode**` interface separates the different channels of an audio source out into a set of *mono* outputs.
+  The **`ChannelSplitterNode`** interface separates the different channels of an audio source out into a set of *mono* outputs.
 
 - [`ChannelMergerNode`](https://developer.mozilla.org/en-US/docs/Web/API/ChannelMergerNode)
 
-  The `**ChannelMergerNode**` interface reunites different mono inputs into a single output. Each input will be used to fill a channel of the output.
+  The **`ChannelMergerNode`** interface reunites different mono inputs into a single output. Each input will be used to fill a channel of the output.
 
 ### Audio spatialization
 
@@ -190,11 +190,11 @@ These interfaces allow you to add audio spatialization panning effects to your a
 
 - [`PannerNode`](https://developer.mozilla.org/en-US/docs/Web/API/PannerNode)
 
-  The `**PannerNode**` interface represents  the position and behavior of an audio source signal in 3D space,  allowing you to create complex panning effects.
+  The **`PannerNode`** interface represents  the position and behavior of an audio source signal in 3D space,  allowing you to create complex panning effects.
 
 - [`StereoPannerNode`](https://developer.mozilla.org/en-US/docs/Web/API/StereoPannerNode)
 
-  The `**StereoPannerNode**` interface represents a simple stereo panner node that can be used to pan an audio stream left or right.
+  The **`StereoPannerNode`** interface represents a simple stereo panner node that can be used to pan an audio stream left or right.
 
 ### Audio processing in JavaScript
 
