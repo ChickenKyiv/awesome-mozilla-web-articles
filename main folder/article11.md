@@ -146,7 +146,7 @@ Interfaces for defining effects that you want to apply to your audio sources.
 
 - [`IIRFilterNode`](https://developer.mozilla.org/en-US/docs/Web/API/IIRFilterNode)
 
-  Implements a general [infinite impulse response](https://en.wikipedia.org/wiki/infinite impulse response) (IIR) filter; this type of filter can be used to implement tone control devices and graphic equalizers as well.
+  Implements a general [infinite impulse response](https://en.wikipedia.org/wiki/infinite%20impulse%20response) (IIR) filter; this type of filter can be used to implement tone control devices and graphic equalizers as well.
 
 ### Defining audio destinations
 
