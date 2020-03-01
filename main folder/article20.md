@@ -361,7 +361,7 @@ The cue settings are added to the right of the cue timings. There  must be one o
     
     - Must be followed by a percent sign (%).
     
-      ![](https://github.com/ChickenKyiv/awesome-mozilla-web-articles/blob/master/main%20folder/images/article20-folder/t2.jpg)
+    ![](https://github.com/ChickenKyiv/awesome-mozilla-web-articles/blob/master/main%20folder/images/article20-folder/t2.jpg)
 
 - position
 
