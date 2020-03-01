@@ -24,23 +24,13 @@ Never drink liquid nitrogen.
 The structure of a WebVTT consists of the following components, some of them optional, in this order:
 
 - An optional byte order mark (BOM).
-
 - The string "`WEBVTT`".
-
-- An optional text header to the right of 
-
-  ```
-  WEBVTT.
-  ```
-
-  - There must be at least one space after `WEBVTT.`
+- An optional text header to the right of `WEBVTT.`
+- There must be at least one space after `WEBVTT.`
   - You could use this to add a description to the file.
   - You may use anything in the text header except newlines or the string "`-->`".
-
 - A blank line, which is equivalent to two consecutive newlines.
-
 - Zero or more cues or comments.
-
 - Zero or more blank lines.
 
 ##### Example 1 - Simplest possible WEBVTT file
