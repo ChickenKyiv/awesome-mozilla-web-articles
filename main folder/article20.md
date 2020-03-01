@@ -347,7 +347,7 @@ The cue settings are added to the right of the cue timings. There  must be one o
 
   - Indicates that the text will be displayed vertically rather than horizontally, such as in some Asian languages.
 
-  ![](https://github.com/ChickenKyiv/awesome-mozilla-web-articles/blob/master/main%20folder/images/article20-folder/t1.jpg)
+    ![](https://github.com/ChickenKyiv/awesome-mozilla-web-articles/blob/master/main%20folder/images/article20-folder/t1.jpg)
 
 - line
 
@@ -358,9 +358,10 @@ The cue settings are added to the right of the cue timings. There  must be one o
     - Negative numbers indicate bottom up.
   - Or value can be a percentage. 	
     - Must be an integer (i.e., no decimals) between 0 and 100 inclusive.
+    
     - Must be followed by a percent sign (%).
-
-![](https://github.com/ChickenKyiv/awesome-mozilla-web-articles/blob/master/main%20folder/images/article20-folder/t2.jpg)
+    
+      ![](https://github.com/ChickenKyiv/awesome-mozilla-web-articles/blob/master/main%20folder/images/article20-folder/t2.jpg)
 
 - position
 
@@ -437,31 +438,24 @@ There are a number of tags, such as `<bold>`, that can be used. However, if the 
   That's <00:00:21.000>amore
   ```
 
-- ​	
+  
+
 
 The following tags are the HTML tags allowed in a cue and require opening and closing tags (e.g., `text`).
 
-- Class tag
+- Class tag (`<c></c>`) 	
 
-   (
-
-  ```
-  <c></c>
-  ```
-
-  ) 	
-
-  - Style the contained text using a CSS class.
+   - Style the contained text using a CSS class.
 
   ##### Example 14 - Class tag
-
+  
   ```html
-  <c.classname>text</c>
+c.classname>text</c>
   ```
 
 ​	
 
-**Italics tag** (``) 
+**Italics tag** (`<i></i>`) 
 
 - Italicize the contained text.
 
@@ -473,7 +467,7 @@ The following tags are the HTML tags allowed in a cue and require opening and cl
 
 ​	
 
-**Bold tag** (``) 
+**Bold tag** (`<b></b>`) 
 
 - Bold the contained text.
 
@@ -485,7 +479,7 @@ The following tags are the HTML tags allowed in a cue and require opening and cl
 
 ​	
 
-**Underline tag** (``) 
+**Underline tag** (`<u></u>`) 
 
 - Underline the contained text.
 
@@ -497,7 +491,7 @@ The following tags are the HTML tags allowed in a cue and require opening and cl
 
 ​	
 
-**Ruby tag** (``) 
+**Ruby tag** (`<ruby></ruby>`) 
 
 - Used with ruby text tags to display [ruby characters](http://en.wikipedia.org/wiki/Ruby_character) (i.e., small annotative characters above other characters).
 
@@ -509,7 +503,7 @@ The following tags are the HTML tags allowed in a cue and require opening and cl
 
 ​	
 
-**Ruby text tag** (``) 
+**Ruby text tag** (`<rt></rt>`) 
 
 - Used with ruby tags to display [ruby characters](http://en.wikipedia.org/wiki/Ruby_character) (i.e., small annotative characters above other characters).
 
@@ -521,7 +515,7 @@ The following tags are the HTML tags allowed in a cue and require opening and cl
 
 ​	
 
-**Voice tag** (``) 
+**Voice tag** (`<v></v>`) 
 
 - Similar to class tag, also used to style the contained text using CSS.
 
@@ -531,7 +525,7 @@ The following tags are the HTML tags allowed in a cue and require opening and cl
 <v Bob>text</v>
 ```
 
-- ​	
+​	
 
 ## Interfaces
 
@@ -616,7 +610,7 @@ There are few steps that can be followed to write a simple webVTT  file. Before 
 WEBVTT
 ```
 
-   \3. Leave the second line blank, and on the third line the time  for first cue is to be specified. For example, for a first cue starting  at time 1 second and ending at 5 seconds, it is written as:
+3. Leave the second line blank, and on the third line the time  for first cue is to be specified. For example, for a first cue starting  at time 1 second and ending at 5 seconds, it is written as:
 
 ```html
 00:01.000 --> 00:05.000
